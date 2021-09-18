@@ -5,7 +5,7 @@ A basic md5 hash compare.
 Hope you enjoy it! 👽
 
 ## How it works:
-It's a basic hash comparison that you need to put a password that you want to obtain the hash and then put the hashed password that you want to compare. The program returns if the hashes match or not.
+It's a basic hash comparison where do you need to put a password that you want to obtain the hash and then put the hashed password that you want to compare. The program returns if the hashes match or not.
 
 #### What is MD5?
 *"The MD5 (message-digest algorithm) hashing algorithm is a one-way cryptographic function that accepts a message of any length as input and returns as output a fixed-length digest value to be used for authenticating the original message.*
