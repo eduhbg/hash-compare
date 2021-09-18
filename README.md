@@ -12,7 +12,7 @@ It's a basic hash comparison that you need to put a password that you want to ob
 
 *The MD5 hash function was originally designed for use as a secure cryptographic hash algorithm for authenticating digital signatures. But MD5 has been deprecated for uses other than as a noncryptographic checksum to verify data integrity and detect unintentional data corruption."*
 
-*Text from the [Search Security](https://searchsecurity.techtarget.com/definition/MD5) website. Access the site to learn more about MD5.*
+*Text from the [Tech Target](https://searchsecurity.techtarget.com/definition/MD5) website. Access the site to learn more about MD5.*
 
 ## What I've learned:
 How MD5 works and how is easy to compare the hashes by making a comparison with a list of possibles passwords.
