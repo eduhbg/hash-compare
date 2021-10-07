@@ -1,13 +1,5 @@
 import hashlib
 
-def hash_compare(hashed_password, hash_to_compare):
-    if hashed_password == hash_to_compare: return True
-    else: return False
-
-def convert_to_hash(password):
-    password = hashlib.md5(password.encode('utf8')).hexdigest()
-    return password
-
 def main():
     password = input('Type your password: ')
     hashed_password = convert_to_hash(password)
@@ -17,6 +9,14 @@ def main():
 
     if result: print('Passwords match.')
     else: print('The passwords do not match.')
+        
+def convert_to_hash(password):
+    password = hashlib.md5(password.encode('utf8')).hexdigest()
+    return password
+        
+def hash_compare(hashed_password, hash_to_compare):
+    if hashed_password == hash_to_compare: return True
+    else: return False
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
